@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 :root {
-    --background: #b5b5d8;
-    --primary: #7e8eb9;
-    --secondary: #6f72af;
+    --background: #b3b3c2;
+    --primary: #767c8b;
+    --secondary: #5c5c6b;
     --light: #f7eeee;
     --dark: #000000;
 }
@@ -135,12 +135,7 @@ section {
 
 /* ---------- Home Section End ---------- */
 
-/* ---------- Projects Section Start ---------- */
-/* ---------- Projects Section End ---------- */
-.projects {
-
-}
-
+/* ---------- Projects Section Start ---------- 
 .projects .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -199,8 +194,5 @@ section {
     background: var(--secondary);
     transition: 0.25s all linear;
 }
-/* ---------- Reviews Section Start ---------- */
-/* ---------- Reviews Section End ----------*/
 
-/* ---------- ---------- */
-/* ---------- ---------- */
+/* ---------- Projects Section End ---------- */
