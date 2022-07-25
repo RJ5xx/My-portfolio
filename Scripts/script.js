@@ -11,11 +11,11 @@ swal("It\'s my birthday on the 29th! 🎂", {
 }).then((value) => {
     switch (value) {
         case "congratulate":
-            swal("Cool!", "Thanks for congratulating me!", "success");
+            swal("Cool!", "Thanks for congratulating me! 🎉", "success");
             break;
 
         case "donate":
-            swal("Here is a link for you to buy me some cake! https://paypal.me/neutral75");
+            swal("Here is a link for you to buy me some cake! https://paypal.me/neutral75 💸");
             break;
     }
 });
