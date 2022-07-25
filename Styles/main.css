@@ -133,6 +133,18 @@ section {
     transform: scale(1.25);
 }
 
+@media (max-width: 990px) {
+    .container {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 892px) {
+    .section {
+        padding: 16px 0px;
+    }
+}
 /* ---------- Home Section End ---------- */
 
 /* ---------- Projects Section Start ---------- 
