@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 :root {
-    --background: #b3b3c2;
-    --primary: #767c8b;
-    --secondary: #5c5c6b;
+    --background: #ffffff;
+    --primary: #d63d3d;
+    --secondary: #b93535;
     --light: #f7eeee;
     --dark: #000000;
 }
@@ -16,25 +16,22 @@
 }
 
 body {
-    color: var(--light);
     background: var(--background);
+    color: var(--light);
 }
 
 section {
     padding: 48px 0px 32px;
 }
 
+#fog-effect {
+    height: 100vh;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
     margin: auto;
-}
-
-#header {
-    text-align: center;
-    font-size: 80px;
-    color: var(--secondary);
-    margin-bottom: 16px;
 }
 
 /* ---------- Home Section Start ---------- */
