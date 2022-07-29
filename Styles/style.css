@@ -65,6 +65,10 @@ section {
     overflow: hidden;
 }
 
+.home .content .text:hover {
+    color: var(--primary);
+}
+
 .home .content h1 {
     position: relative;
     font-size: 16px;
