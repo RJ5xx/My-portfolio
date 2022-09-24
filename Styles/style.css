@@ -18,6 +18,8 @@
 body {
     background: var(--background);
     color: var(--light);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 section {
