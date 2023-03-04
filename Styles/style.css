@@ -126,12 +126,12 @@ section {
     font-size: 22.5px;
     padding: 10px;
     border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
 }
 
 .home .content .social-media .bx:hover {
     background: var(--primary);
-    transition: 0.25s all linear;
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 
 @media (max-width: 990px) {
